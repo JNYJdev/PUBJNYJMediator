@@ -17,17 +17,23 @@ Pod::Spec.new do |spec|
 
   spec.name         = "PUBJNYJMediator"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of PUBJNYJMediator."
+  spec.summary      = "PUBJNYJMediator is testing for cocospod, my first project to study."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
+  spec.description  = <<-DESC 
+		TESTING custom cocoapod
+		TESTING custom cocoapod
+		TESTING custom cocoapod
+		TESTING custom cocoapod
+		TESTING custom cocoapod
+		TESTING custom cocoapod
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/PUBJNYJMediator"
+  spec.homepage     = "https://github.com/JNYJdev/PUBJNYJMediator"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +44,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -52,7 +58,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "qqiang.dev@gmail.com" => "qqiang.dev@gmail.com" }
+  spec.author             = { "qqiang.dev" => "qqiang.dev@gmail.com" }
   # Or just: spec.author    = "qqiang.dev@gmail.com"
   # spec.authors            = { "qqiang.dev@gmail.com" => "qqiang.dev@gmail.com" }
   # spec.social_media_url   = "https://twitter.com/qqiang.dev@gmail.com"
@@ -64,7 +70,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+  spec.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -79,7 +85,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/PUBJNYJMediator.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/JNYJdev/PUBJNYJMediator.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,8 +96,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  # spec.source_files  = "PUBJNYJMediator", "PUBJNYJMediator/*.{h,m}"
+  # spec.exclude_files = "PUBJNYJMediator"
 
   # spec.public_header_files = "Classes/**/*.h"
 
