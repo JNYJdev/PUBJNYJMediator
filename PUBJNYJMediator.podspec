@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "PUBJNYJMediator"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "PUBJNYJMediator is testing for cocospod, my first project to study."
 
   # This description is used to generate tags and improve search results.
